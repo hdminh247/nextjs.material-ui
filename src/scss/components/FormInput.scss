@@ -1,0 +1,54 @@
+/* Text field override */
+label {
+  &.MuiInputLabel-outlined {
+    &.MuiInputLabel-shrink {
+      color: $standardGrey !important;
+    }
+  }
+}
+
+.Mui-focused {
+  .MuiOutlinedInput-notchedOutline {
+    border-width: 1px !important;
+    border-color: $standardBlack !important;
+  }
+}
+
+.error {
+  .MuiOutlinedInput-notchedOutline {
+    border-width: 1px !important;
+    border-color: $brightRed !important;
+  }
+}
+
+.MuiFormLabel-root,
+.MuiInputLabel-root,
+.MuiInputLabel-formControl,
+.MuiInputLabel-animated,
+.MuiInputLabel-outlined {
+  color: $standardGrey !important;
+}
+
+.MuiCheckbox-colorSecondary {
+  &.Mui-checked {
+    color: black !important;
+  }
+}
+
+.MuiInputBase-input {
+  background-color: $white !important;
+}
+
+.MuiOutlinedInput-multiline {
+  background-color: $white !important;
+}
+
+.MuiInputBase-root {
+  &.MuiOutlinedInput-adornedStart {
+    background-color: $white !important;
+  }
+}
+
+.MuiSelect-selectMenu {
+  white-space: normal !important;
+}

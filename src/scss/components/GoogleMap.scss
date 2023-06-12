@@ -1,0 +1,10 @@
+#search-input-wrapper {
+  fieldset {
+    border: none;
+  }
+  .Mui-focused {
+    .MuiOutlinedInput-notchedOutline {
+      border: $standardYellow solid 1px !important;
+    }
+  }
+}

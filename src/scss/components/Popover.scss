@@ -1,0 +1,20 @@
+#filter-popover {
+  .MuiPopover-paper {
+    @media screen and (min-width: $sm) and (max-width: $md) {
+      left: 0 !important;
+      top: 0 !important;
+      min-width: 100% !important;
+      max-width: 100% !important;
+      max-height: 100% !important;
+      min-height: 100% !important;
+    }
+    @media screen and (max-width: $sm) {
+      left: 0 !important;
+      top: 0 !important;
+      max-width: 100% !important;
+      min-width: 100% !important;
+      max-height: 100% !important;
+      min-height: 100% !important;
+    }
+  }
+}
